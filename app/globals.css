@@ -22,7 +22,7 @@ h1 em { color:var(--red); font-style:normal; white-space:nowrap; }
 .fine { font:10px Arial,sans-serif; letter-spacing:.08em; margin-top:18px; color:#999286; }
 .hero-art { height:550px; position:relative; display:grid; place-items:center; }
 .arsenal-hero-figure { width:min(500px,100%); margin:0; aspect-ratio:1; border:1px solid rgba(83,73,56,.12); border-radius:50%; overflow:hidden; background:#f4efe4; box-shadow:0 16px 42px rgba(75,57,27,.09); }
-.arsenal-hero-figure img { display:block; width:100%; height:100%; object-fit:cover; }
+.arsenal-hero-figure img { display:block; width:100%; height:100%; object-fit:contain; object-position:center; }
 .orb { width:min(38vw,470px); aspect-ratio:1; border:1px solid rgba(23,22,19,.16); border-radius:50%; position:relative; box-shadow:inset 0 0 0 22px rgba(255,255,255,.25),0 30px 90px rgba(46,35,23,.08); background:repeating-radial-gradient(circle,transparent 0 44px,rgba(23,22,19,.035) 45px 46px); }
 .orb:before,.orb:after { content:""; position:absolute; background:var(--ink); left:50%; top:50%; transform-origin:0 0; }
 .orb:before { width:2px; height:123%; transform:rotate(38deg) translate(-1px,-50%); }
